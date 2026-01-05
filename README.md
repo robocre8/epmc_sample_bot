@@ -96,6 +96,6 @@ Feel free to adopt it in building your own mobile base control with ROS2
 
 - control the robot via teleop
 > [!NOTE]
-> your teleop must publish on the `/cmd_vel` topic
+> your teleop should publish Stamped velocity on the `/cmd_vel` topic
 
-- you can use the [arrow_key_teleop_drive]() package
+- you can use the [arrow_key_teleop_drive](https://github.com/samuko-things/arrow_key_teleop_drive) package
