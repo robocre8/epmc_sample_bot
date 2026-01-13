@@ -14,9 +14,9 @@ from launch.conditions import IfCondition, UnlessCondition
 def generate_launch_description():
     # delare any path variable
     description_pkg_path = get_package_share_directory('epmc_sample_bot_description')
-    # base_pkg_path = get_package_share_directory('epmc_sample_bot_base')
+    base_pkg_path = get_package_share_directory('epmc_sample_bot_base')
 
-    robot_controllers = os.path.join(description_pkg_path,'config','robot_base_controller.yaml')
+    robot_controllers = os.path.join(base_pkg_path,'config','robot_base_controller.yaml')
 
     #--------------------------------------------------------------------------
 

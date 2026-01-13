@@ -26,7 +26,7 @@ endif()
 
 # Install launch files.
 install(DIRECTORY
-    config
+    # config
     launch
     urdf
     DESTINATION share/${PROJECT_NAME}/
